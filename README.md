@@ -1,5 +1,11 @@
 # SafePath-Advanced-Obstacle-Aware-Cruise-Control-System
 - An Intelligent Pothole Detection (YOLOv8) and Depth Estimation (LiDAR) Cruise Control System (Raspberry Pi 4 and Arduino UNO)
+    - Detects potholes using a real-time camera attached to Raspberry Pi.
+    - Measures the depth of the pothole using a LiDAR sensor.
+    - Uses serial communication from the sensor connected to Arduino to Raspberry Pi.
+    - Based on this, potholes are classified as Safe, Medium, or Risk.
+    - The speed of the vehicle is adjusted accordingly.
+    - Built as a prototype model.
 - Details about project [here](https://github.com/VarshaS-37/SafePath---Advanced-Obstacle-Aware-Cruise-Control-System/blob/main/Project_Ppt.pdf)
 - YOLOv8 code [here](https://github.com/VarshaS-37/SafePath---Advanced-Obstacle-Aware-Cruise-Control-System/blob/main/pothole_Detection_YOLO_V8.ipynb)
 - Arduino Code [here](https://github.com/VarshaS-37/SafePath---Advanced-Obstacle-Aware-Cruise-Control-System/blob/main/proj_final.ino)
